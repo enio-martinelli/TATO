@@ -1,0 +1,36 @@
+{equipes:23 | Japão: vantagem}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 23
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Japão": vantagem
+"Holanda"
+"Costa Rica"
+"Madagascar"
+"Índia"
+"Nova Zelândia"
+"Espanha"
+"México"
+"Marrocos"
+"Argentina"
+"Israel"
+"Sudão"
+"Egito"
+"Inglaterra"
+"Chile"
+"Honduras"
+"Dinamarca"
+"França"
+
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

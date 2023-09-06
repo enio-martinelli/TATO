@@ -1,0 +1,38 @@
+<'nome_torneio','nome_torneio'>
+<':',':'>
+<'"Copa do Mundo"',CADEIA>
+<'quantidade_equipes','quantidade_equipes'>
+<':',':'>
+<'5',NMR_EQP>
+<'"Brasil"',CADEIA>
+<'"Alemanha"',CADEIA>
+<':',':'>
+<'vantagem','vantagem'>
+<'"Italia"',CADEIA>
+<'"Belgica"',CADEIA>
+<'"Costa do Marfim"',CADEIA>
+<'caracteristicas','caracteristicas'>
+<':',':'>
+<'repescagem','repescagem'>
+<':',':'>
+<'sim','sim'>
+<'fim_torneio','fim_torneio'>
+<'nome_torneio','nome_torneio'>
+<':',':'>
+<'"Melhor de 3"',CADEIA>
+<'quantidade_equipes','quantidade_equipes'>
+<':',':'>
+<'3',NMR_EQP>
+<'"Brasil"',CADEIA>
+<'"Alemanha"',CADEIA>
+<':',':'>
+<'vantagem','vantagem'>
+<'"Italia"',CADEIA>
+<'caracteristicas','caracteristicas'>
+<':',':'>
+<'repescagem','repescagem'>
+<':',':'>
+<'nao','nao'>
+<'fim_torneio','fim_torneio'>
+<'fim_algoritmo','fim_algoritmo'>
+Fim da compilacao

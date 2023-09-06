@@ -1,0 +1,212 @@
+Chave: duracao, Valor: curto
+Chave: repescagem, Valor: nao
+pontos no gerador -> false
+nmr_equipes no gerador -> 20
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador TATO</title>
+  <style>
+      body{
+          font-family: Arial, sans-serif;
+      }
+      .tournament-table{
+          display: table;
+          width: 100%;
+          border-collapse: separate;
+          border-spacing: 10px;
+      }
+      .tournament-row{
+          display: table;
+          text-align: center;
+      }
+      .tournament-cell{
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle;
+          border: 1px solid #ccc;
+          padding: 10px;
+          width: 150px;
+      }
+      .team-name{
+          font-weight: bold;
+      }
+      .winner{
+          background-color: #4CAF50;
+          color: white;
+      }
+      .spacer{
+          width: 20px;
+          display: table-cell;
+      }
+      .vertical-divider{
+          border-left: 1px solid #ccc;
+          height: 100px;
+          margin: 30px auto;
+      }
+  </style>
+</head>
+<body>
+  <h1>Copa do Mundo</h1>
+  <div class="tournament-table">
+       <h2><center>Fase Pré-Eliminar</center></h2>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 1</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Nova Zelândia</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Chile</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 2</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Madagascar</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Belgica</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 3</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Costa Rica</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Egito</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 4</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Espanha</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Brasil</div>
+         </div>
+      </div>
+         <h2><center>Oitavas de Final</center></h2>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 5</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Israel</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Holanda</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 6</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Marrocos</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">EUA</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 7</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Italia</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Argentina</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 8</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Japão</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Índia</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 9</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Alemanha</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Inglaterra</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 10</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Sudão</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">México</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 11</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 1</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 2</div>
+         </div>
+         <div class="tournament-cell">
+             <div class="team-name">JOGO 12</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 3</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 4</div>
+         </div>
+      </div>
+         <h2><center>Quartas de Final</center></h2>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 13</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 5</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 6</div>
+         </div>
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 14</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 7</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 8</div>
+         </div>
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 15</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 9</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 10</div>
+         </div>
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 16</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 11</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 12</div>
+         </div>
+      </div>
+         <h2><center>Semifinal</center></h2>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 17</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 13</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 14</div>
+         </div>
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 18</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 15</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 16</div>
+         </div>
+      </div>
+         <h2><center>Final</center></h2>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell winner">
+             <div class="team-name">JOGO 19</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 17</div>
+             <div class="team-name">VS</div>
+             <div class="team-name">Vencedor jogo 18</div>
+         </div>
+      </div>
+      <div class="tournament-row vertical-divider">
+         <div class="tournament-cell winner">
+             <div class="team-name">CAMEPÃO</div>
+             <div class="team-name">--------</div>
+             <div class="team-name">Vencedor jogo 19</div>
+         </div>
+      </div>
+  </div>
+</body>
+</html>
+Fim da compilacao

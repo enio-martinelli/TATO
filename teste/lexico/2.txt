@@ -1,0 +1,14 @@
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 33
+
+"Brasil"
+"Alemanha"
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

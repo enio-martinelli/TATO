@@ -1,0 +1,2 @@
+Linha 10: Outra equipe ja foi declarada com vantagem anteriormente
+Fim da compilacao

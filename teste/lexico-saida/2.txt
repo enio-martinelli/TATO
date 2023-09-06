@@ -1,0 +1,18 @@
+<'nome_torneio','nome_torneio'>
+<':',':'>
+<'"Copa do Mundo"',CADEIA>
+<'quantidade_equipes','quantidade_equipes'>
+<':',':'>
+<'33',NMR_EQP>
+<'"Brasil"',CADEIA>
+<'"Alemanha"',CADEIA>
+<'"Italia"',CADEIA>
+<'"Belgica"',CADEIA>
+<'caracteristicas','caracteristicas'>
+<':',':'>
+<'repescagem','repescagem'>
+<':',':'>
+<'sim','sim'>
+<'fim_torneio','fim_torneio'>
+<'fim_algoritmo','fim_algoritmo'>
+Fim da compilacao

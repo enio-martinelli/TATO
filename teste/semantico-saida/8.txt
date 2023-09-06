@@ -1,0 +1,2 @@
+Linha 9: Equipe "Brasil" já declarada
+Fim da compilacao

@@ -1,0 +1,20 @@
+{equipes:5 }
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 5
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+
+
+caracteristicas: 
+    repescagem: sim
+    pontos: sim
+
+fim_torneio
+{pode declarar outro torneio aqui}
+fim_algoritmo

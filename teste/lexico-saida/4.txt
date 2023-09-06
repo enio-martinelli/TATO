@@ -1,0 +1,4 @@
+<'nome_torneio','nome_torneio'>
+<':',':'>
+Linha 3: formato inválido para o nome da(o) equipie/torneio
+Fim da compilacao

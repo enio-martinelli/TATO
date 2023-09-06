@@ -1,0 +1,30 @@
+{tudo ok}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 5
+
+"Brasil" 
+"Alemanha" : vantagem
+"Italia" 
+"Belgica" 
+"Costa do Marfim"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+
+nome_torneio: "Melhor de 3"
+
+quantidade_equipes: 3
+
+"Brasil" 
+"Alemanha" : vantagem
+"Italia" 
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,44 @@
+{equipes:31 | Israel: vantagem}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 31
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Japão"
+"Holanda"
+"Costa Rica"
+"Madagascar"
+"Índia"
+"Nova Zelândia"
+"Espanha"
+"México"
+"Marrocos"
+"Argentina"
+"Israel": vantagem
+"Sudão"
+"Egito"
+"Inglaterra"
+"Chile"
+"Honduras"
+"Dinamarca"
+"França"
+"Austrália"
+"Colômbia"
+"Jamaica"
+"Coréia do Sul"
+"Nepal"
+"Canadá"
+"Sérvia"
+"Gana"
+
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,38 @@
+{equipes:25 }
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 25
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Japão"
+"Holanda"
+"Costa Rica"
+"Madagascar"
+"Índia"
+"Nova Zelândia"
+"Espanha"
+"México"
+"Marrocos"
+"Argentina"
+"Israel"
+"Sudão"
+"Egito"
+"Inglaterra"
+"Chile"
+"Honduras"
+"Dinamarca"
+"França"
+"Austrália"
+"Colômbia"
+
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

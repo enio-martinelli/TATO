@@ -1,0 +1,2 @@
+Linha 5: Quantidade de equipes inválida. Minimo 4 equipes
+Fim da compilacao

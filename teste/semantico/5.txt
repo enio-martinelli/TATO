@@ -1,0 +1,17 @@
+{erro na verificação da quantidade de equipes declardas com a quantidade de nomes}
+{quanitdade_equipes > nomes}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 5
+
+"Brasil" 
+"Alemanha"
+"Italia" 
+"Belgica" : vantagem
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

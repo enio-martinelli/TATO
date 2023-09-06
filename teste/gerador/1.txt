@@ -1,0 +1,48 @@
+{equipes: 32 | pontos: sim } 
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 32
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Angola"
+"Nova Zelândia"
+"China"
+
+"Argentina" 
+"Colombia"
+"Africa do Sul"
+"Dinamarca"
+"México"
+"Egito"
+"Indonésia"
+"Israel"
+
+"Austrália" 
+"França"
+"Jamaica"
+"Japão"
+"Inglaterra"
+"Portugal"
+"Russia"
+"Chile"
+
+"Gana" 
+"Uruguai"
+"Espanha"
+"Costa Rica"
+"Coreia do Sul"
+"Marrocos"
+"Costa do Marfim"
+"Índia"
+
+caracteristicas: 
+    repescagem: nao
+    pontos: sim
+
+fim_torneio
+fim_algoritmo

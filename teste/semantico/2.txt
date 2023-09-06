@@ -1,0 +1,21 @@
+{erro de dupla declaração de 'pontos'}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil" 
+"Alemanha" 
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    pontos: sim
+    repescagem: nao
+    pontos: sim
+    
+   
+    
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,2 @@
+Linha 11: Numero de equipes declaradas [4] inferior ao valor dado em 'quantidade_equipes' [5]
+Fim da compilacao

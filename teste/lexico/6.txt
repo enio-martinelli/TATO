@@ -1,0 +1,15 @@
+{erro de simbolo nao identificado}
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil" : vantagem
+"Alemanha"
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    repescagem: quero {só aceita valores 'sim' ou 'nao'}
+
+fim_torneio
+fim_algoritmo

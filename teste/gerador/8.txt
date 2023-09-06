@@ -1,0 +1,21 @@
+{equipes:8 }
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 8
+
+"Brasil" 
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Japão"
+"Holanda"
+"Costa Rica"
+
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,2 @@
+Linha 5: Quantidade de equipes inválida. Maximo 32 equipes
+Fim da compilacao

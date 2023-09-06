@@ -1,0 +1,17 @@
+{erro de duas equipes declaradas com mesmo nome}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 5
+
+"Brasil" 
+"Alemanha" : vantagem
+"Brasil" 
+"Belgica" 
+"Costa do Marfim"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

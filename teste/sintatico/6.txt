@@ -1,0 +1,19 @@
+{erro de ordem errada de declaracao de nomes e quantidade_equipe}
+
+nome_torneio: "Copa do Mundo"
+
+"Brasil" 
+"Alemanha" 
+"Italia"
+"Belgica"
+
+quantidade_equipes: 4
+
+
+
+caracteristicas:
+    pontos: sim
+    repescagem: sim
+   
+fim_torneio
+fim_algoritmo

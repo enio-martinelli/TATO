@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador TATO</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0; /* Remova as margens padrão do corpo */
+          height: 100vh; /* Defina a altura do corpo como 100% da viewport */
+          display: flex;
+          justify-content: center; /* Centralize horizontalmente o corpo */
+          align-items: center; /* Centralize verticalmente o corpo */
+      }
+      .tournament-container {
+          display: flex;
+          flex-direction: column; /* Colunas empilhadas verticalmente */
+          max-width: 1200px;
+          width: 100%;
+      }
+      .tournament-table {
+          display: table;
+          width: 100%;
+          border-collapse: separate;
+          border-spacing: 10px;
+      }
+      .tournament-column {
+          display: inline-block;
+          
+           /* As colunas ocupam toda a largura do contêiner */
+      }
+      .tournament-row {
+          text-align: center;
+          vertical-align: middle;
+      }
+      .tournament-cell {
+          text-align: center;
+          vertical-align: middle;
+          padding: 10px;
+          width: 150px;
+          display: block;
+          margin: 0 auto; /* Centralize as células horizontalmente */
+      }
+      .team-name {
+          font-weight: bold;
+      }
+      .title {
+          color: white;
+      }
+      .winner {
+          background-color: #4CAF50;
+          color: white;
+      }
+      .spacer {
+          width: 20px;
+          display: table-cell;
+      }
+      .vertical-divider {
+          height: 100px;
+          margin: 30px auto;
+      }
+      .inner-table {
+          width: 100%;
+          background-color: #4CAF50;
+      }
+  </style>
+</head>
+<body>
+  <div class="tournament-container">
+    <h1><center>"Copa do Mundo"</center></h1>
+    <div class="tournament-table">
+        <div class="tournament-column">
+          <div class="tournament-row vertical-divider">
+             <div class="tournament-cell">
+                <table class="inner-table" border=3>
+                  <tr >
+                    <td class="team-name">JOGO 1</td>
+                  </tr>
+                  <tr >
+                    <td class="team-name">"Italia"</td>
+                  </tr>
+                  <tr >
+                    <td class="team-name">"Belgica"</td>
+                  </tr>
+                </table>
+             </div>
+             <div class="tournament-cell">
+                 <div class="team-name">"Nova Zelândia"</div>
+                 <div class="team-name">"Brasil"</div>
+             </div>
+             <div class="tournament-cell">
+                 <div class="team-name">"Italia"</div>
+                 <div class="team-name">"EUA"</div>
+             </div>
+             <div class="tournament-cell">
+                 <div class="team-name">"Belgica"</div>
+                 <div class="team-name">"China"</div>
+             </div>
+          </div>
+        </div>
+        <div class="tournament-column">
+          <div class="tournament-row vertical-divider">
+             <div class="tournament-cell winner">
+                 <div class="team-name">Vencedor jogo 1</div>
+                 <div class="team-name">Vencedor jogo 2</div>
+             </div>
+             <div class="tournament-cell winner">
+                 <div class="team-name">Vencedor jogo 3</div>
+                 <div class="team-name">Vencedor jogo 4</div>
+             </div>
+          </div>
+        </div>
+        <div class="tournament-column">
+          <div class="tournament-row vertical-divider">
+             <div class="tournament-cell winner">
+                 <div class="team-name">Vencedor jogo 5</div>
+                 <div class="team-name">Vencedor jogo 6</div>
+             </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

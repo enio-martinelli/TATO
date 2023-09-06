@@ -1,0 +1,18 @@
+<'nome_torneio','nome_torneio'>
+<':',':'>
+<'"Copa do Mundo"',CADEIA>
+<'quantidade_equipes','quantidade_equipes'>
+<':',':'>
+<'4',NMR_EQP>
+<'"Brasil"',CADEIA>
+<':',':'>
+<'vantagem','vantagem'>
+<'"Alemanha"',CADEIA>
+<'"Italia"',CADEIA>
+<'"Belgica"',CADEIA>
+<'caracteristicas','caracteristicas'>
+<':',':'>
+<'repescagem','repescagem'>
+<':',':'>
+Linha 12: q - simbolo nao identificado
+Fim da compilacao

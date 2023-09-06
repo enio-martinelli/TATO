@@ -1,0 +1,4 @@
+Linha 18: Torneio "Copa do Mundo" já declarado
+Linha 10: Outra equipe ja foi declarada com vantagem anteriormente
+Linha 25: Outra equipe ja foi declarada com vantagem anteriormente
+Fim da compilacao

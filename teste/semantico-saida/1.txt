@@ -1,0 +1,2 @@
+Linha 7: Torneio com numero par de equipes nao pode ter equipe declarada com vantagem
+Fim da compilacao

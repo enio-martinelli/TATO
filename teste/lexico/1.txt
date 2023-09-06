@@ -1,0 +1,16 @@
+{erro semantico de declaração de vantagem em torneio com número par de participantes não é reportado no analisador lexico}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil" : vantagem
+"Alemanha"
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

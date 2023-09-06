@@ -1,0 +1,21 @@
+{equipes: 7 | Italia: vantagem | repescagem} 
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 7
+
+"Brasil" 
+"Alemanha"
+"Italia": vantagem
+"Belgica"
+"EUA"
+"Angola"
+"Nova Zelândia"
+
+
+caracteristicas: 
+    repescagem: sim
+    pontos: nao
+
+fim_torneio
+fim_algoritmo

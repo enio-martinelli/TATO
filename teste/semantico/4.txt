@@ -1,0 +1,20 @@
+{erro de dupla declaração de 'repescagem'}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil" 
+"Alemanha"
+"Italia" 
+"Belgica" 
+
+caracteristicas: 
+    repescagem: sim
+    pontos: sim
+    repescagem :nao
+
+    
+
+fim_torneio
+fim_algoritmo

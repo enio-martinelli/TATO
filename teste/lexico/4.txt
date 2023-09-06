@@ -1,0 +1,17 @@
+{exemplo de erro para nome de torneio/equipe errado}
+
+nome_torneio: "Copa do
+ Mundo"
+
+quantidade_equipes: 4
+
+"Brasil"
+"Alemanha"
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

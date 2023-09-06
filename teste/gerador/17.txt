@@ -1,0 +1,30 @@
+{equipes:17 | Brasil: vantagem}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 17
+
+"Brasil" : vantagem
+"Alemanha"
+"Italia"
+"Belgica"
+"EUA"
+"Japão"
+"Holanda"
+"Costa Rica"
+"Madagascar"
+"Índia"
+"Nova Zelândia"
+"Espanha"
+"México"
+"Marrocos"
+"Argentina"
+"Israel"
+"Sudão"
+
+
+caracteristicas: 
+    repescagem: nao
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,16 @@
+{erro  quanitdade_equipes < 4}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 3
+
+"Brasil" 
+"Alemanha" 
+"Italia"
+
+caracteristicas: 
+    pontos: sim
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

@@ -1,0 +1,16 @@
+{exemplo de erro para comentario nao fechado 
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil"
+"Alemanha"
+"Italia"
+"Belgica"
+
+caracteristicas: 
+    repescagem: sim
+
+fim_torneio
+fim_algoritmo

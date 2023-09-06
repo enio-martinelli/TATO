@@ -1,0 +1,16 @@
+{erro de declaração nula de caracteristicas}
+
+nome_torneio: "Copa do Mundo"
+
+quantidade_equipes: 4
+
+"Brasil" 
+"Alemanha" 
+"Italia"
+"Belgica"
+
+caracteristicas: 
+   
+
+fim_torneio
+fim_algoritmo
