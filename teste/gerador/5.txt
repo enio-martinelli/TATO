@@ -1,20 +1,19 @@
-{equipes:5 }
+{-----------------------------Linguagem TATO - gerador de tabelelas de torneio--------------------------------------------------------}
 
 nome_torneio: "Copa do Mundo"
 
-quantidade_equipes: 5
+quantidade_equipes: 5  {mínimo 4, máximo 32}
 
-"Brasil" 
+"Brasil"  {opcional, apenas com quantidade_equipes ímpar, apenas um time por torneio}
 "Alemanha"
 "Italia"
 "Belgica"
 "EUA"
 
 
-caracteristicas: 
-    repescagem: sim
-    pontos: sim
+caracteristicas: {default 'nao'}
+    repescagem: nao
+    pontos: nao
 
 fim_torneio
-{pode declarar outro torneio aqui}
 fim_algoritmo

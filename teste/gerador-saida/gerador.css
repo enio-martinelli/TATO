@@ -51,7 +51,7 @@ body{
 } 
 
 
-.grid-container {
+.grid-container{
     display: grid;
     grid-template-areas:  
         'left left left right right right' 
@@ -60,8 +60,7 @@ body{
     /*background-color: #7BF3E7;*/
 } 
 
-.left,
-.right { /* style das tabelas quando há repescagem */
+.left, .right { /* style das tabelas quando há repescagem */
     text-align: center; 
     padding: 10px;
     margin-top: 10px;

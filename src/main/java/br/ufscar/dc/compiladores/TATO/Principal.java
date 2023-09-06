@@ -66,12 +66,12 @@ public class Principal {
                 parser.addErrorListener(mcel); // Adiciona o ErroListener customizado
         
                 parser.programa();
-            }
+            
 
             //Análise semântica (comentar para testar outras análises)
             lex.reset();
-            CommonTokenStream tokens = new CommonTokenStream(lex);
-            TATOParser parser = new TATOParser(tokens);
+            tokens = new CommonTokenStream(lex);
+            parser = new TATOParser(tokens);
 
             parser.removeErrorListeners(); 
             
@@ -86,6 +86,7 @@ public class Principal {
                 System.out.println(ghtml.saida.toString());
             }
             TATOSemanticoUtils.errosSemanticos.forEach((s) -> System.out.println(s));
+        }
 
             System.out.println("Fim da compilacao"); //Comentar para testar o gerador
             // Fechar o arquivo após concluir a análise semantica

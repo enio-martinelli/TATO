@@ -140,7 +140,12 @@ public class TATOGeradorHTML_Utils {
             nome_equipes = new ArrayList<>();
             for(int i=1; i<=tabelas_grupos; i++){ //gera os confrontos entre os classificados de cada grupo, sempre o 1º vs 2º do grupo seguinte
                 if(i==tabelas_grupos){ //o 1º do último grupo enfrenta o 2º do primeiro grupo
-                    if(!equipe_vantagem.equals("")){ //se tem equipe com vatagem é colocada direto no mata-mata
+                    if(tabelas_grupos==1){ 
+                        nome_equipes.add("1º colocado");
+                        nome_equipes.add("4º colocado");
+                        nome_equipes.add("2º colocado");
+                        nome_equipes.add("3º colocado");
+                    }else if(!equipe_vantagem.equals("")){ //se tem equipe com vatagem é colocada direto no mata-mata
                         nome_equipes.add(equipe_vantagem);
                         nome_equipes.add("2º colocado GRUPO 1");
                     }else{
@@ -189,7 +194,7 @@ public class TATOGeradorHTML_Utils {
             copia_nmr_equipes-=1;
         }
         clashes+=aux;
-        clashes+=end;
+        if(pre_eliminar) clashes+=end; 
      
         aux="";
        
@@ -198,6 +203,7 @@ public class TATOGeradorHTML_Utils {
         //Final entre chaves superior e inferior no caso de repescagem
         if(repescagem){ 
             clashes+=body_loser_html(nome_equipes_loser);
+            clashes+= "  <div class=\"tournament-table footer central\">\n";
             clashes+=begin;
             clashes+= "         <div class=\"tournament-cell winner\">\n";
             clashes+= "             <div class=\"team-name\">Final</div>\n";
@@ -213,6 +219,7 @@ public class TATOGeradorHTML_Utils {
         }
 
         //campeão
+        if(!repescagem) clashes+= "  <div class=\"tournament-table footer central\">\n";
         clashes+=begin;
         clashes+= "         <div class=\"tournament-cell winner\">\n";
         clashes+= "             <div class=\"team-name\">CAMEPÃO</div>\n";
@@ -336,7 +343,7 @@ public class TATOGeradorHTML_Utils {
             clashes+= end;
             titulo2=false;
         }
-       
+       clashes+= end;
         return clashes;
     }
 
@@ -351,7 +358,7 @@ public class TATOGeradorHTML_Utils {
         String table = "  <div class=\"tournament-table right central\">\n"; //mudança na posição dos confrontos na tela (repescagem sempre à direita)
         String clashes = "";
         
-        clashes+=grid;
+        //clashes+=grid;
         clashes+=table;
         String aux= "";
         
@@ -366,6 +373,7 @@ public class TATOGeradorHTML_Utils {
                 aux+= "       <h2><center>"+cont_fases_inferior+"º Fase - Inferior</center></h2>\n";
                 aux+=begin;
                 pre_eliminar = true;
+                cont_fases_inferior++;
             }
             aux+= "         <div class=\"tournament-cell\">\n";
             aux+= "             <div class=\"team-name\">JOGO "+(cont_jogos)+"</div>\n";
@@ -399,7 +407,10 @@ public class TATOGeradorHTML_Utils {
        
         for(int i=0; i<copia_nmr_equipes/2; i++){
             while(!titulo1){
-                clashes+= "         <h2><center>"+cont_fases_inferior+"º Fase - Inferior</center></h2>\n";
+                if(copia_nmr_equipes==2)
+                    clashes+= "         <h2><center>Final Inferior</center></h2>\n";
+                else
+                    clashes+= "         <h2><center>"+cont_fases_inferior+"º Fase - Inferior</center></h2>\n";
                 clashes+=begin;
                 titulo1=true;
             }
@@ -425,6 +436,7 @@ public class TATOGeradorHTML_Utils {
         for(int i=copia_nmr_equipes/4; i>0; i/=2){
             for(int j=1; j<=i; j++){
                 while(!titulo2){
+                    //System.out.println(i);
                     switch(i){
                         case 1:
                             clashes+= "         <h2><center>Final Inferior</center></h2>\n";
@@ -457,6 +469,5 @@ public class TATOGeradorHTML_Utils {
        
         return clashes;
     }
-
 
 }

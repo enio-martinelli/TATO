@@ -67,7 +67,7 @@ Como utilizar a linguagem TATO:
 
 O compilador então irá gerar um arquivo `.html` com a tabela completa completa do torneio, com confrontos aleatórios na primeira fase.
 
-Ainda tem dúvidas? Veja esse vídeo com alguns exemplos: "em breve vídeo"
+Ainda tem dúvidas? Veja esse vídeo com alguns exemplos: (fonte: [https://youtu.be/rRytm9D1-40](video))
 
 
 

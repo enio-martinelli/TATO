@@ -1,4 +1,4 @@
-grammar TATO;
+grammar TATO; //(TAbelas para TOrneio)
 
 //ANALISADOR LEXICO
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.ufscar.dc.compiladores.la_lexico.AppTest" time="0.074" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.ufscar.dc.compiladores.la_lexico.AppTest" time="0.119" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio\target\test-classes;C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio\target\classes;C:\Users\eniom\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\eniom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4\4.11.1\antlr4-4.11.1-complete.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\eniom\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\eniom\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\eniom\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\eniom\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO\target\test-classes;C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO\target\classes;C:\Users\eniom\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\eniom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4\4.11.1\antlr4-4.11.1-complete.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\eniom\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\eniom\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\eniom\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\eniom\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\eniom\AppData\Local\Temp\surefire4788126055056712215\surefirebooter6332768805394247303.jar C:\Users\eniom\AppData\Local\Temp\surefire4788126055056712215 2023-09-06T08-08-53_978-jvmRun1 surefire17902678937411085990tmp surefire_02590204774585136697tmp"/>
+    <property name="sun.java.command" value="C:\Users\eniom\AppData\Local\Temp\surefire12406903134363628885\surefirebooter2498205642238501809.jar C:\Users\eniom\AppData\Local\Temp\surefire12406903134363628885 2023-09-06T19-07-53_634-jvmRun1 surefire9224794626368349918tmp surefire_017657784572972239725tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio\target\test-classes;C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio\target\classes;C:\Users\eniom\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\eniom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4\4.11.1\antlr4-4.11.1-complete.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\eniom\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\eniom\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\eniom\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\eniom\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO\target\test-classes;C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO\target\classes;C:\Users\eniom\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\eniom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4\4.11.1\antlr4-4.11.1-complete.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\eniom\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\eniom\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\eniom\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\eniom\.m2\repository\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar;C:\Users\eniom\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\eniom"/>
     <property name="user.language" value="pt"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2022-04-22"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio"/>
+    <property name="basedir" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\eniom\AppData\Local\Temp\surefire4788126055056712215\surefirebooter6332768805394247303.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eniom\AppData\Local\Temp\surefire12406903134363628885\surefirebooter2498205642238501809.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\eniom\AppData\Local\Temp\"/>
     <property name="java.version" value="18.0.1.1"/>
-    <property name="user.dir" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\t6-gerador-tabela-torneio"/>
+    <property name="user.dir" value="C:\Users\eniom\Documents\Faculdade\7SEMESTRE\Compiladores\TATO"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="br.ufscar.dc.compiladores.la_lexico.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithTrue" classname="br.ufscar.dc.compiladores.la_lexico.AppTest" time="0.007"/>
 </testsuite>
